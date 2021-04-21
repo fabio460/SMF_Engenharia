@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    width: 850px;
+    margin: auto;
+    
+}
+.banner{
+    
+    background-image: url("../assets/image/banner-desktop.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 600px;
+    padding-top: 50px;
+}
+
+ul{
+    display: flex;
+    
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+    font-weight: bold;
+    
+}
+li:not(.image_log){
+    margin-top: 70px;
+}
+header a{
+    text-decoration: none;
+}
+header a:hover{
+    background-color: black;
+    color: white;
+
+}
+
+button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.logo_insta_img{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.zap_logo{
+   width: 200px;
+   height: 80px;
+   margin-top: 20px;
+}
+h1{
+    margin-top: 40px;
+}
+.section_1{
+    text-align: center;
+    
+}
+.banner_2{
+    margin-top: 50px;
+    margin-bottom: -4px;
+}
+.section_2,.section_4{
+    background-color:rgba(42, 50, 157, 1);
+    color: white;
+
+}
+.section_2 .container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.bloco{
+   margin: 30px;
+    
+}
+.section_3 .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.direito{
+    padding: 50px;
+}
+.esquerdo{
+    
+    padding: 50px;
+}
+
+.esquerdo img{
+    width: 200px;
+    height: 200px;
+}
+.section_4 .container{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    text-align: center;
+}
+form{
+    display: grid;
+    gap: 5px;
+    
+}
+form button{
+   
+   width: 200px;
+   margin: auto;
+   height: 40px;
+   background-color: rgba(92, 177, 0, 1);
+   color: white;
+}
+
